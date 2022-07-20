@@ -790,3 +790,76 @@ body{
   font-family: arial;
   text-align: left;
 }
+.a11{
+  display:grid;
+  grid-template-columns: 200px 75px;
+}
+.lightBlue{
+  background-color: lightblue;
+}
+.lightPink{
+  background-color: lightpink;
+}
+.b11{
+  display:grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 10px;
+}
+.c11{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+.d11{
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  column-gap: 15px;
+  align-items: center;
+}
+.d11GV{
+  display:grid;
+  grid-template-rows: 170px 25px  25px 40px;
+  row-gap: 4px;
+  align-items: center;
+}
+.d11GH{
+  display:grid;
+  grid-template-columns: 25px 1fr;
+  column-gap: 6px;
+  align-items: center;
+}
+.profile2{
+  height: 275px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  font-family: arial;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.grid-photo{
+  object-fit: cover;
+  width: 100%;
+  height: 170px;
+}
+.namePr2{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.addFG{
+  color: white;
+  background-color: rgb(10, 102, 194);
+  border-radius: 4px;
+  border:none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 13px;
+  margin-left: 10px;
+  width: 60%;
+}
