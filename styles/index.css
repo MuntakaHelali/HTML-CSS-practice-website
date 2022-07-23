@@ -863,3 +863,164 @@ body{
   margin-left: 10px;
   width: 60%;
 }
+.a12{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.a121{
+  width: 200px;
+}
+.a122{
+  width: 75px;
+}
+.b121{
+  width: 50px;
+}
+.b122{
+  flex: 1;
+}
+.b123{
+  width: 75px;
+}
+.c12{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.d12{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  align-items: center;
+  margin: 10px;
+  
+}
+.e12{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:120px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 10px;
+}
+.textF{
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 500;
+  flex: 1;
+}
+.notiF{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.buttonF{
+  background-color: rgb(10, 102, 194);
+  border-radius: 20px;
+  color: white;
+  font-family: arial;
+  font-size: 14px;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+.f12Header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background-color: rgb(121, 82, 179);
+  margin: 10px;
+}
+.f12Home{
+  font-family: arial;
+  color:white;
+  font-size: 17px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.f12Input{
+  border-style: none;
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 17px;
+  width: 500px;
+}
+.f12Download{
+  border-style: solid;
+  border-color: white;
+  font-family: arial;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  margin-right: 8px;
+}
+.g12{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.g12Image{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.g12P{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.g12D{
+  font-family: arial;
+  width: 200px;
+}
+.g12Name{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.g12Pet{
+  font-size: 17px;
+  color: gray;
+  margin-bottom: 4px;
+}
+.g12Pop{
+  font-size: 15px;
+  color: gray;
+}
+.g12Follow{
+  background-color: rgb(10, 102, 194);
+  color:white;
+  font-family: arial;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
