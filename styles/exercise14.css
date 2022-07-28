@@ -1,0 +1,180 @@
+body{
+    background-color:lavenderblush;
+    padding-right: 110px;
+    padding-top: 110px;
+   }
+.newCenter{
+    border:solid;
+    border-width: 4px;
+    border-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+.a14{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .b14{
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 75px;
+    color: white;
+    background-color: green;
+  }
+  .d14B{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .d14Overlay{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .d14Modal{
+    background-color: white;
+    border-radius: 6px;
+    width: 300px;
+    padding: 15px;
+  }
+  .d14Title{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .d14Subtitle{
+    font-family: arial;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .d14Button{
+    font-family: arial;
+    font-size: 16px;
+    width: 55px;
+    background-color: rgb(108, 117, 125);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+  .e14Header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .d14ProfileImage{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 27px;
+  }
+  .e14Title{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    flex: 6;
+  }
+  .e14ButtonFlex{
+    flex: 1;
+  }
+  .e14FriendButton{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-family: arial;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  .e14MessageButton{
+    background-color: rgb(182, 182, 182);
+    color: rgb(30, 30, 30);
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-family: arial;
+    font-size: 15px;
+  }
+  .f14Sidebar{
+    position: fixed;
+    top: 75px;
+    left: 0;
+    bottom: 0;
+    display: flex;
+  }
+  .f14Left{
+    background-color:#252629;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .f14ProfileImage{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 27px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 8px;
+  }
+  .f14Right{
+    background-color: #333438;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 18px;
+  }
+  .f14InfoHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  .f14InfoTitle{
+    color: #E7E7E7;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .f14InfoPlus{
+    color: #919397;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: normal;
+    margin-top: -5px;
+  }
+  .f14text{
+    color: #8C8C8C;
+    font-family: arial;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
