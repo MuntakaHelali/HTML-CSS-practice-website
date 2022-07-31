@@ -1,0 +1,99 @@
+body{
+    background-color:lavenderblush;
+    height: 3000px;
+}
+.newCenter{
+    border:solid;
+    border-width: 4px;
+    border-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .a15{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+  }
+  .b15{
+    position: fixed;
+    width: 320px;
+    height: 180px;
+    bottom: 10px;
+    right: 10px;
+    background-color: gray;
+  }
+  .c15{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+  }
+  .d15{
+    position: absolute;
+    font-family: arial;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    padding: 5px;
+    bottom: 7px;
+    right: 7px;
+  }
+  .e15{
+    position: relative;
+    left: 5px;
+    width: 300px;
+    height: 300px;
+  }
+  .shirtImage{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .e15Discount{
+    position: absolute;
+    top: 7px;
+    right: 0;
+    color: white;
+    background-color: black;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+  }
+  .f15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    z-index: 1;
+  }
+  .buttonAdd{
+    margin: 0;   
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+  }
